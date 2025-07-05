@@ -1,0 +1,169 @@
+HTML
+<head class = "grid-container">
+  <div>
+  <nav> 
+    <a href="#"><img src="#"></a>
+   <a href="#">Desitnations</a>
+    <a href="#">Hotels</a>
+    <a href="#">Flights</a>
+    <a href="#">Bookings</a>
+    <a href="#">Login</a>
+    <button>Sing up</button>
+  </nav>
+    <select name = "lingua">
+ <option valume = "en">EN</option>
+<opition valume = "pt">PT</opition>
+    </select>
+  </div>
+  <h3>Best destinations around the world</h3>
+  <h1>Travel, enjoy ande live a new and full life</h1>
+  <p>Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gat sell they west hard for the. </p>
+  <img src="#">
+  <button class = "laranja">Find out more</button>
+  <div>
+    <h3>Category</h3>
+    <h1>We Offer Best Services</h1>
+  </div>
+      <div>
+          <button class= "meu-botao">
+                <img src= "#">
+                <h3>Calculated Weather</h3>
+        <p>Built Wicket longer admire do barton vanity itself do in it.</p></button>
+    <button class= "meu-botao">
+                <img src= "#">
+                <h3>Best Flights</h3>
+        <p>Engrossed listening. Park gate sell they west hard for the..</p></button>
+  <button class= "meu-botao">
+                <img src= "#">
+                <h3>Local Events</h3>
+        <p>Barton vanity itself do in it. Preferd to men it engrossed listening</p></button>
+  <button class= "meu-botao">
+                <img src= "#">
+                <h3>Customization</h3>
+        <p>We deliver outsourced aviation services for military customers.</p></button>
+  </div>
+<div> 
+  <h4> Top Selling </h4>
+  <h1> Top Destinations </h5>
+</div>
+<div>
+  <button class="meu-botao"
+          class="card">
+          <img src="#">
+  <h5> Rome, Italty   $5,42K </h5>
+  <p> 10 Days Trip </p></button>
+<button class="meu-botao"
+class="card">
+
+        <img src="#">
+<h5> London, UK     $4.2K </h5>
+<p> 12 Days Trip </p></button>
+<button class="meu-botao"
+        class="card">
+        <img src="#">
+<h5> Full Europe     $15K </h5>
+<p> 28 Days Trip </p></button>
+</div>
+<div>
+<h5> Easy and Fast </h5>
+  <h1> Book Your Next Trip </h1>
+  <h1> In 3 Easy Steps </h1>
+  <img src="#">
+  <h4> Choose Destination </h4>
+  <p> Lorem ipsum dolor sit amet, consectetur </p>
+  <p> adipiscing elit. Urna, tortor tempus </p>
+ <img src="#">
+ <h4> Make Payment </h4>
+  <p> Loren ipsum dolor sit amet, consectetur </p>
+  <p> adipiscing elit. Urna, tortor tempus </p>
+<img src="#">
+  <h4> Reach Airport on Selected Date </h4>
+  <p> Lorem ipsum dolor sit amet, consectetur </p>
+  <p> adipiscing elit. Urna, tortor tempus </p>
+</div>
+<div>
+  <button class="meu-botao"
+           class="card">
+<img src="#">
+  <h4> Trip To Greece </h4>
+  <p> 14 - 29 June | by Robbin </p>
+    
+</div>
+<div>
+  <h6> Testmonials </h6>
+  <h1> What People Say </h1>
+  <h1> About Us. </h1>
+  <button class="meu-botao"
+          class="card">
+  <img src="#">
+       <p> On the Windows talking painted posture yet its</p>
+  <p> express parties use. Sure last upon he same as </p>
+  <p> khew next. Of believed or diverted no. </p>
+  <h6> Mike Taylor </h6>
+  <p> Lahore, Pakistan </p>
+</div>
+  <div>
+  <a href="#"> aXon </a>
+    <a href="#"> Jeststar </a>
+    <a href="#"> Expedia </a>
+    <a href="#"> Qantas </a>
+    <a href="#"> Atitalia </a>
+  </div>
+<div>
+  <h2>Subscribe to get information, latest news and other interesting offers about Jadoo</h2>
+  <label for="email">Your email:</label>
+  <input type="email" id="email">
+  <button>Subscribe</button>
+
+  <h5> Company </h5>
+<ul> 
+  <li><a href="#"> About </a></li>
+  <li><a href="#"> Careers </a></li>
+  <li><a href="#"> Mobile </a></li>
+  </ul>
+  <h5> Contact </h5>
+<ul> 
+  <li><a href="#"> Help/FAQ </a></li>
+  <li><a href="#"> Press </a></li>
+  <li><a href="#"> Affiliates </a></li>
+  </ul>
+  <h5> More </h5>
+<ul> 
+  <li><a href="#"> Airlinfees </a></li>
+  <li><a href="#"> Airline </a></li>
+  <li><a href="#"> Low fare tips </a></li>
+  </ul>
+  </div>
+
+</head>
+
+CSS
+button {
+  padding: 15px;
+  border: 1px;
+}
+.laranja {
+  background-color: orange;
+}
+.meu-botao {
+  background-color: white;
+  color: black;
+  padding: 50px px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 8px 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.meu-botao:hover {
+  transform: scale(1.1);
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px; 
+    max-width: 750px; 
+    margin: 10 auto; 
+}
