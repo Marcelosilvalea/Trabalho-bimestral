@@ -93,22 +93,9 @@ class="card">
   <h6> Testmonials </h6>
   <h1> What People Say </h1>
   <h1> About Us. </h1>
-  <button class="meu-botao"
-          class="card">
-  <img src="#">
-       <p> On the Windows talking painted posture yet its</p>
-  <p> express parties use. Sure last upon he same as </p>
-  <p> khew next. Of believed or diverted no. </p>
-  <h6> Mike Taylor </h6>
-  <p> Lahore, Pakistan </p>
+  
 </div>
-  <div>
-  <a href="#"> aXon </a>
-    <a href="#"> Jeststar </a>
-    <a href="#"> Expedia </a>
-    <a href="#"> Qantas </a>
-    <a href="#"> Atitalia </a>
-  </div>
+ 
 <div>
   <h2>Subscribe to get information, latest news and other interesting offers about Jadoo</h2>
   <label for="email">Your email:</label>
