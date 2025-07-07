@@ -114,25 +114,6 @@ class="card">
   <label for="email">Your email:</label>
   <input type="email" id="email">
   <button>Subscribe</button>
-
-  <h5> Company </h5>
-<ul> 
-  <li><a href="#"> About </a></li>
-  <li><a href="#"> Careers </a></li>
-  <li><a href="#"> Mobile </a></li>
-  </ul>
-  <h5> Contact </h5>
-<ul> 
-  <li><a href="#"> Help/FAQ </a></li>
-  <li><a href="#"> Press </a></li>
-  <li><a href="#"> Affiliates </a></li>
-  </ul>
-  <h5> More </h5>
-<ul> 
-  <li><a href="#"> Airlinfees </a></li>
-  <li><a href="#"> Airline </a></li>
-  <li><a href="#"> Low fare tips </a></li>
-  </ul>
   </div>
 
 </head>
